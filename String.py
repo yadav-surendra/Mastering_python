@@ -30,3 +30,12 @@ i want to work in Microsoft
 because i've heard that the 
 working culture of microsoft is awesome."""
 print(s)
+
+
+st = "Hello world i am a programmer!"
+print(st[6])
+#prints 6th char from the begining of the string starting from 0.
+print(st[-7])
+#prints the 7th character from the last of the string.
+print(st[0:10])
+#prints the charactetrs from 0 to 10th index.
