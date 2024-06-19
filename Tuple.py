@@ -17,3 +17,12 @@ print(thistuple[::-1])
 thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
+
+#unpacking tuple
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
