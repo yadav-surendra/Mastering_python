@@ -22,3 +22,10 @@ def key_wala(**args):
     
 key_wala(first = "ram", second = "hari", third = "shyam")
 
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
