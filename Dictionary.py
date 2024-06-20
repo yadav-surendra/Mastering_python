@@ -20,3 +20,14 @@ print(a,b)
 thisdict.update({"year": 2020})
 print(thisdict)
 
+mydict = {
+    "name": "suren",
+    "age": 20,
+    "height": 6
+    }
+print(mydict)
+
+dict2 = mydict.copy()
+dict3 = dict(mydict)
+print(dict3)
+print(dict2)
